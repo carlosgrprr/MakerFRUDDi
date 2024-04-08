@@ -40,7 +40,9 @@ nav a {
 main {
     max-width: 800px;
     margin: 20px auto;
+    background-color: #59e4fd79;
     padding: 20px;
+    text-align: center;
 }
 
 /* Style the footer */
