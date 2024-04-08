@@ -1,0 +1,74 @@
+/* ... Previous CSS code ... */
+
+/* Style the menus section */
+
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+
+header {
+    background-color: #b30e45c4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+} 
+
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #d751fc;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #59e4fd79;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #700f0f;
+    color: white;
+    padding: 10px;
+}
+
+
+#menus {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Style the recipes section */
+#recipes {
+    background-color: #f8cbcb;
+    padding: 20px;
+}
+
+/* Style individual menu and recipe items (you'll add more styles later) */
+.menu-item, .recipe-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
