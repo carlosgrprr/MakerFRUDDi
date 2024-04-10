@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Creator</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Reciper Creator Menus📋</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu/radar.html">Radar 🛰️ </a></li>
+                <li><a href="/menu/contact.html">Contact📲</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="recipes">
+        <h2>Recipe Creator</h2>
+        <form id="recipe-form">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" name="recipe-name" required>
+            
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+            
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="4" required></textarea>
+            
+            <button type="submit">Create Recipe</button>
+        </form>
+        <div id="recipe-list">
+            <!-- Recipes will be displayed here -->
+        </div>
+    </section>
 </body>
 </html>
